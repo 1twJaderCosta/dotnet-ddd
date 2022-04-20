@@ -1,0 +1,11 @@
+// classe abistrata apenas herdada e não instanciada 
+
+digitar prop e tab 2x cria método sozinho
+
+private apenas construtuores ou métodos poem settar (prop e propg para criar automático)
+
+Entidade anemica não tem comportamento ( métodos )
+
+seleciona tudo e ctrl + . (gera construtuor)
+
+digitar ctor + tab (criar constrututor)

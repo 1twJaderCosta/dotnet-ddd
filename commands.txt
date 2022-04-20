@@ -1,0 +1,22 @@
+dotnet --list-sdks //lista todos sdks instalados
+
+dotnet new -l //list all templates
+
+dotnet new sln -n MercoGlobalMain  //cria solution -n para nome
+dotnet new solution -n MercoGlobalMain //mesma coisa
+
+dotnet new classlib -n MercoGlobalMainDDD.Domain //cria pasta com classe
+dotnet new mvc -n MercoGlobalMainDDD.Web    // criar aplicação mvc
+
+dotnet new gitignore // criar git ignore
+
+dotnet sln ./MercoGlobalMain.sln add ./MercoGlobalMainDDD.Domain // adiciona a pasta para a solution
+
+dotnet restore // atualizar
+
+-------------------------------------
+
+dotnet new webAPI -o MercoGlobalMain //cria camada de aplicação
+
+dotnet add package fluentvalidation // adicionar na pasta que precisa, ex MercoGlobal.Domain
+dornet add package Microsoft.EntityFrameworkCore
